@@ -6,6 +6,7 @@ morea_type: experience
 morea_summary: "Adding and configuring the R Kernel in Anaconda"
 morea_sort_order: 1
 morea_labels:
+  - video
 ---
 
 # Configuring Anaconda

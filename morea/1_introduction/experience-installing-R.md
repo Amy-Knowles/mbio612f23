@@ -1,3 +1,4 @@
+
 ---
 title: "Installing R"
 published: true
@@ -6,6 +7,7 @@ morea_type: experience
 morea_summary: "Installing R"
 morea_sort_order: 1
 morea_labels:
+  - video
 ---
 
 # Installing R and RStudio

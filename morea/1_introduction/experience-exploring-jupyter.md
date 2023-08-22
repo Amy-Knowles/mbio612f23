@@ -6,6 +6,7 @@ morea_type: experience
 morea_summary: "Exploring Jupyter Notebooks "
 morea_sort_order: 1
 morea_labels:
+  - video
 ---
 
 # Exploring Jupyter

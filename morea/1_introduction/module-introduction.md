@@ -16,12 +16,13 @@ morea_experiences:
   - experience-configuring-andaconda
   - experience-exploring-jupyter  
   - experience-exploring-R
+  - experience-interpret-this-code
 morea_assessments:
   - assessment-experience-1
 morea_type: module
 morea_icon_url: /morea/1_introduction/introduction.jpg
-morea_start_date: "2022-08-22"
-morea_end_date: "2022-08-26T23:00"
+morea_start_date: "2022-08-21"
+morea_end_date: "2022-08-25T23:00"
 morea_labels:
 morea_sort_order: 1
 ---
