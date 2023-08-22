@@ -1,4 +1,3 @@
-
 ---
 title: "Installing R"
 published: true
