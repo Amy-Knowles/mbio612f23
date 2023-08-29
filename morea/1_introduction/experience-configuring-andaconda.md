@@ -24,9 +24,9 @@ Watch the video below to learn how to integrate an R kernel with Anaconda and se
 conda config --add channels conda-forge    
 conda config --set channel_priority strict    
 conda search r-base  
-conda create -n r-mbio612 python=3.8   
+conda create -n r-mbio612
 conda activate r-mbio612  
-conda install -c conda-forge r-base=4.2.1
+conda install -c conda-forge r-base=4.3
 conda install jupyter
 ### !DO NOT PASTE THE CODE BELOW INTO THE TERMINAL!
 ```

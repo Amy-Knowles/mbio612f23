@@ -1,0 +1,43 @@
+digraph GitHubConcepts {
+  // General graph settings
+  graph [layout=dot]
+  node [shape=ellipse, style=filled, fillcolor=lightblue]
+
+  // Nodes
+  Repository [label="Repository\n(Central storage for code, data, and documentation)"]
+  Push [label="Push\n(Send changes to a repository)"]
+  Clone [label="Clone\n(Copy a repository to your local machine)"]
+  Pull [label="Pull\n(Retrieve changes from a repository)"]
+  PullRequest [label="Pull Request\n(Request to merge changes into another branch or repository)"]
+  Branch [label="Branch\n(An independent line of development)"]
+  Merging [label="Merging\n(Combine multiple lines of development)"]
+  GithubClient [label="Github Client\n(Interface to interact with GitHub)"]
+  README [label="README file\n(Information about the project)"]
+  Privacy [label="Private or Public\n(Accessibility settings of a repository)"]
+
+  // Edges with labels
+  Repository -> Push [label=" receives"]
+  Repository -> Clone [label=" can be"]
+  Repository -> Pull [label=" can be"]
+  Repository -> PullRequest [label=" affected by"]
+  Repository -> Branch [label=" contains"]
+  Repository -> README [label=" contains"]
+  Repository -> Privacy [label=" has"]
+  Push -> Repository [label=" to"]
+  Clone -> Repository [label=" from"]
+  Pull -> Repository [label=" from"]
+  PullRequest -> Repository [label=" to"]
+  PullRequest -> Branch [label=" affects"]
+  PullRequest -> Merging [label=" results in"]
+  Branch -> Repository [label=" in"]
+  Branch -> Merging [label=" can be"]
+  Branch -> PullRequest [label=" can create"]
+  Merging -> Branch [label=" into"]
+  Merging -> PullRequest [label=" from"]
+  GithubClient -> Push [label=" can"]
+  GithubClient -> Clone [label=" can"]
+  GithubClient -> Pull [label=" can"]
+  GithubClient -> PullRequest [label=" can create"]
+  README -> Repository [label=" in"]
+  Privacy -> Repository [label=" of"]
+}

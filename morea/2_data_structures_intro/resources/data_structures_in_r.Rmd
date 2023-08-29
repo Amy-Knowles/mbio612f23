@@ -40,7 +40,7 @@ output: html_document
 Hint: Use the `?` symbol to invoke the matrix documentation
 
 ```{r}
-# Add your photo here
+# Add your code here
 ```
 
 #### Question 1
